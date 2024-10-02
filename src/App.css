@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white1: #ffffff;
+  --black1: #000000;
+  --textgrey: #6e6f6f;
+  --grey1: #c4cad1;
+  --grey2: #aaabad;
+  --grey3: #d6d2d2;
+}
+
+.board-details {
+  width: 100%;
+  height: calc(100vh - 68px);
+  background-color: var(--grey3);
+  overflow-x: auto;
+}
+
+.board-details-list {
+  width: fit-content;
+  display: flex;
+}
